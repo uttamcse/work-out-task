@@ -1,0 +1,25 @@
+name: task
+description: A Flutter project for managing tasks and reminders.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^14.0.0
+  intl: ^0.17.0
+  timezone: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment if you need to add any assets (like images)
+  # assets:
+  #  - images/a_dot_burr.jpeg
